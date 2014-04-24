@@ -32,14 +32,14 @@ int main() {
         if (last[s[i]] >= i-j) {
           f[i][j] -= g[last[s[i]]-1][j-(i-last[s[i]])];
 
-															//if (f[i][j] < 0) f[i][j] += md;
+		if (f[i][j] < 0) f[i][j] += md;
         }
         g[i][j] = f[i][j];
         
 		if (j > 0) 
 		{
           g[i][j] += g[i-1][j-1];
-									//if (g[i][j] >= md) g[i][j] -= md;
+		  if (g[i][j] >= md) g[i][j] -= md;
         }
       }
       last[s[i]] = i;
