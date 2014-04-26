@@ -1,3 +1,10 @@
+/*	Title : Algorithm to find the number of connected components
+ *  		and print all the connected components in a graph.
+ *
+ *	Author : Garvit Sharma (garvitlnmiit)
+ *	Email  : garvits45@gmail.com
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 
