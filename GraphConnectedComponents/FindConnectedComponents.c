@@ -53,7 +53,7 @@ Graph* createGraph(int);
 Node* newAdjListNode(int);
 void freeGraph(Graph **);
 
-// Graph utility
+// Graph utility 
 Node* newAdjListNode(int dest)
 {
     Node* newNode = (Node*) malloc(sizeof(Node));
