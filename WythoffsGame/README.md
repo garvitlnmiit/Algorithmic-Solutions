@@ -1,4 +1,4 @@
-What is Wythoff's Game ?
+Wythoff's Game ?
 ========================
 
 Wythoff’s Game, named after Willem Abraham Wythoff, is a well known game amongst
@@ -41,3 +41,10 @@ turn. If k=3, p=2 (or vise versa), player 1 would take one from each side forcin
 the first player to play k=2, p=1. Similarly, if k=4, p=3, player 1 would take two from each side,
 again forcing player two to be the first player to play k=2, p=1. In general, player 1 can win if
 you start k=1, p=k+1 (or p=1, k=p+1) when k is greater than or equal to two.
+
+Further Readings
+----------------
+
+I have placed a document in this repository which helps you to fully understand the theory of wythoff's game. 
+Also, there is a program(solution.c) which is a solution of one of the problem of Hackerearth. The problem is
+completely based on the wythoff's game theory.
